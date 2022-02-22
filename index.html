@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Openwar!</title>
+</head>
+<body>
+    <div class='container-fluid' style="background-color: #223343;">
+        <nav class="navbar navbar-expand-lg navbar-light" style=" background-color: #dd4e48; border-bottom: 0.85px rgba(160, 157, 157, 0.493) solid; margin-bottom: 10px;color: white;">
+            <div class="container-fluid nav-fluid">
+              <a class="navbar-brand" href="#" style="width: 200px;"><Img src="./img/LOGO.png" width="100%"></Img></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #7b69f3;">
+                <span class="bi bi-list" style="color: white; font-size: 25px;"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding: 10px 30px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" >Home</a>
+                  </li>
+                  <li style="margin-right: 50px;"></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                </ul>
+                <div class="dropdown" style="margin: 10px;">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      @Rifaldisetyawan
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Privacy</a></li>
+                      <li><a class="dropdown-item" href="#">Setting</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </div>
+              </div>
+              
+            </div>
+        </nav>
+        <div class="alert alert-success" role="alert"><marquee behavior="" direction="" style="font-size: 24px;">New Arrival on January 2022, check it out!</marquee></div>
+
+        <div class='container-fluid' style="margin-bottom: 10px;">
+            <div class="row justify-content-start">
+                
+                <div class="col-lg-8" style="margin-bottom: 10px;" >
+                        <div class="container2">
+                            <div class="a">
+                                <img src="./img/bird-thumbnail.jpg" alt=""  class='img-thumbnail'>
+                            </div>
+                            <div class="b" style="color: white;">
+                              <div class="like">
+                                <div style="color: #ffffff" class="like-profil"><h3>Burung Cantik</h3></div>
+                                <div class="like-button">
+                                  <i class="bi bi-heart"></i>
+                                </div>
+                              </div>
+                              <div style="margin-top: 20px; margin-bottom: 20px;">
+                                <table style="color: white; text-align: justify;">
+                                  <tr>
+                                    <td rowspan="2" style="width: 40px;" cellpadding="10px"><img src="./img/pp.png" alt="" style="width: 100%;" class="img-fluid rounded-circle"></td>
+                                    <td style="font-weight: 600; height: 10px;" cellpadding="0px">Rifaldi Setyawan</td>
+                                  </tr>
+                                  <tr>
+                                    <td style="font-size: 12px;">@rifaldisetyawan</td>
+                                  </tr>
+                                </table>
+                              </div>
+                              <div style="color: #ffffff; text-align: justify; margin-bottom: 20px;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, recusandae dolores eum delectus eaque id fuga minima doloribus molestias totam exercitationem repudiandae libero adipisci. Tempora nemo consequuntur nesciunt laboriosam atque?
+                              </div>
+                              <div style="display:flex; justify-self: start;">
+                                      
+                                <a href="#" class="btn btn-primary btn-block" data-bs-toggle="modal" onclick="myFunction()" style="margin-right: 10px;">Collection</a>
+                                <a href="#" class="btn btn-primary  btn-block" data-bs-toggle="modal" onclick="myFunction()" >History</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 50px; margin-bottom: 10px; border-radius: 10px;">
+                          <h2 style="margin: 10px; color: white;">Trending Auction</h2>
+                        </div>
+                        
+
+                        <div class="row row-cols-1 row-cols-md-3 g-4" >
+                          <!-- conten1 -->
+                            <div class="col-6">
+                                <div class="card c1" style="border-radius: 10px;" >
+                                    <img src="./img/nft.png" alt="Burung" width="90%" style="border-radius: 10px; align-self: center; margin-top: 10px; border: 1px solid rgba(0, 0, 0, 0.37)">
+                                    <div class="card-body" style="padding-top: 5px;">
+                                      <div class="like">
+                                        <div class="like-profil">
+                                          
+                                        </div>
+                                        <div class="like-button">
+                                          <i class="bi bi-heart"></i>
+                                        </div>
+                                      </div>
+                                      <div class="text-content">
+                                        <div class="content-a">
+                                          <div>
+                                            <div style="color: gray;">Rifaldi Setyawan</div>
+                                            <h5>Old Man</h5>
+                                          </div>
+                                        </div>
+                                        <div class="content-b">
+                                          <div>
+                                            <div style="color: gray;">Price</div>
+                                            <h5>$ 20</h5>
+                                          </div>
+                                        </div>
+                                                                               
+                                       </div>
+                                       <div class="gird-button">
+                                        
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b1" data-bs-toggle="modal" data-bs-target="#previewmodal" >Preview</a>
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b2" data-bs-toggle="modal" onclick="myFunction()" >Bid</a>
+                                        </div>
+                                    </div>
+                                      
+                                </div>
+                            </div>
+                            <!-- konten2 -->
+                            <div class="col-6">
+                              <div class="card c2" style="border-radius: 10px;" >
+                                  <img src="./img/nft2.png" alt="Burung" width="90%" style="border-radius: 10px; align-self: center; margin-top: 10px; border: 1px solid rgba(0, 0, 0, 0.37)">
+                                  <div class="card-body" style="padding-top: 5px;">
+                                    <div class="like">
+                                      <div class="like-profil">
+                                        
+                                      </div>
+                                      <div class="like-button">
+                                        <i class="bi bi-heart"></i>
+                                      </div>
+                                    </div>
+                                    <div class="text-content">
+                                      <div class="content-a">
+                                        <div>
+                                          <div style="color: gray;">Rifaldi Setyawan</div>
+                                          <h5>Old McDonalds</h5>
+                                        </div>
+                                      </div>
+                                      <div class="content-b">
+                                        <div>
+                                          <div style="color: gray;">Price</div>
+                                          <h5>$ 17</h5>
+                                        </div>
+                                      </div>
+                                                                             
+                                     </div>
+                                     <div class="gird-button">
+                                      
+                                      <a href="#" class="btn btn-primary btn-lg btn-block b1" data-bs-toggle="modal" data-bs-target="#previewmodal2" >Preview</a>
+                                      <a href="#" class="btn btn-primary btn-lg btn-block b2" data-bs-toggle="modal" onclick="myFunction()" >Bid</a>
+                                      </div>
+                                  </div>
+                                    
+                              </div>
+                            </div>
+                            <!-- konten3 -->
+                            <div class="col-6">
+                              <div class="card c3" style="border-radius: 10px;" >
+                                  <img src="./img/nft3.png" alt="Burung" width="90%" style="border-radius: 10px; align-self: center; margin-top: 10px; border: 1px solid rgba(0, 0, 0, 0.37)">
+                                  <div class="card-body" style="padding-top: 5px;">
+                                    <div class="like">
+                                      <div class="like-profil">
+                                        
+                                      </div>
+                                      <div class="like-button">
+                                        <i class="bi bi-heart"></i>
+                                      </div>
+                                    </div>
+                                    <div class="text-content">
+                                      <div class="content-a">
+                                        <div>
+                                          <div style="color: gray;">Rifaldi Setyawan</div>
+                                          <h5>The Astronout</h5>
+                                        </div>
+                                      </div>
+                                      <div class="content-b">
+                                        <div>
+                                          <div style="color: gray;">Price</div>
+                                          <h5>$ 25</h5>
+                                        </div>
+                                      </div>
+                                                                             
+                                     </div>
+                                     <div class="gird-button">
+                                      
+                                      <a href="#" class="btn btn-primary btn-lg btn-block b1" data-bs-toggle="modal" data-bs-target="#previewmodal3" >Preview</a>
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b2" data-bs-toggle="modal" onclick="myFunction()" >Bid</a>
+                                      </div>
+                                  </div>
+                                    
+                              </div>
+                            </div>
+                              <!-- konten4 -->
+                              <div class="col-6">
+                                <div class="card c1" style="border-radius: 10px;" >
+                                    <img src="./img/nft4.png" alt="Burung" width="90%" style="border-radius: 10px; align-self: center; margin-top: 10px; border: 1px solid rgba(0, 0, 0, 0.37)">
+                                    <div class="card-body" style="padding-top: 5px;">
+                                      <div class="like">
+                                        <div class="like-profil">
+                                          
+                                        </div>
+                                        <div class="like-button">
+                                          <i class="bi bi-heart"></i>
+                                        </div>
+                                      </div>
+                                      <div class="text-content">
+                                        <div class="content-a">
+                                          <div>
+                                            <div style="color: gray;">Rifaldi Setyawan</div>
+                                            <h5>The Cowboy</h5>
+                                          </div>
+                                        </div>
+                                        <div class="content-b">
+                                          <div>
+                                            <div style="color: gray;">Price</div>
+                                            <h5>$ 27</h5>
+                                          </div>
+                                        </div>
+                                                                               
+                                       </div>
+                                       <div class="gird-button">
+                                        
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b1" data-bs-toggle="modal" data-bs-target="#previewmodal4" >Preview</a>
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b2" data-bs-toggle="modal" onclick="myFunction()" >Bid</a>
+                                        </div>
+                                    </div>
+                                      
+                                </div>
+                            </div>
+                              <!-- konten5 -->
+                              <div class="col-6">
+                                <div class="card c2" style="border-radius: 10px;" >
+                                    <img src="./img/nft5.png" alt="Burung" width="90%" style="border-radius: 10px; align-self: center; margin-top: 10px; border: 1px solid rgba(0, 0, 0, 0.37)">
+                                    <div class="card-body" style="padding-top: 5px;">
+                                      <div class="like">
+                                        <div class="like-profil">
+                                          
+                                        </div>
+                                        <div class="like-button">
+                                          <i class="bi bi-heart"></i>
+                                        </div>
+                                      </div>
+                                      <div class="text-content">
+                                        <div class="content-a">
+                                          <div>
+                                            <div style="color: gray;">Rifaldi Setyawan</div>
+                                            <h5>Madam Maggie</h5>
+                                          </div>
+                                        </div>
+                                        <div class="content-b">
+                                          <div>
+                                            <div style="color: gray;">Price</div>
+                                            <h5>$ 30</h5>
+                                          </div>
+                                        </div>
+                                                                               
+                                       </div>
+                                       <div class="gird-button">
+                                        
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b1" data-bs-toggle="modal" data-bs-target="#previewmodal5" >Preview</a>
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b2" data-bs-toggle="modal" onclick="myFunction()" >Bid</a>
+                                        </div>
+                                    </div>
+                                      
+                                </div>
+                            </div>
+                              <!-- konten6 -->
+                              <div class="col-6">
+                                <div class="card c3" style="border-radius: 10px;" >
+                                    <img src="./img/nft6.png" alt="Burung" width="90%" style="border-radius: 10px; align-self: center; margin-top: 10px; border: 1px solid rgba(0, 0, 0, 0.37)">
+                                    <div class="card-body" style="padding-top: 5px;">
+                                      <div class="like">
+                                        <div class="like-profil">
+                                          
+                                        </div>
+                                        <div class="like-button">
+                                          <i class="bi bi-heart"></i>
+                                        </div>
+                                      </div>
+                                      <div class="text-content">
+                                        <div class="content-a">
+                                          <div>
+                                            <div style="color: gray;">Rifaldi Setyawan</div>
+                                            <h5>Old Blad Man</h5>
+                                          </div>
+                                        </div>
+                                        <div class="content-b">
+                                          <div>
+                                            <div style="color: gray;">Price</div>
+                                            <h5>$ 20</h5>
+                                          </div>
+                                        </div>
+                                                                               
+                                       </div>
+                                       <div class="gird-button">
+                                        
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b1" data-bs-toggle="modal" data-bs-target="#previewmodal6" >Preview</a>
+                                        <a href="#" class="btn btn-primary btn-lg btn-block b2" data-bs-toggle="modal" onclick="myFunction()" >Bid</a>
+                                        </div>
+                                    </div>
+                                      
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
+                <div class="col-lg-4 recent-activity" style="color: white;">
+                    <table class="table table-dark table-hover" style=" width: 100%;">
+                      <h3 style="margin-bottom: 20px;">Recent Activity</h>
+                        
+                        <tbody style="color: #ffffff;">
+                            <tr>
+                                <td style="width: 60px;"><img src="./img/pp.png" alt="" style="width: 100%;"></td>
+                                <td style="font-size: 20px; vertical-align: middle; font-weight: 600;">Rifaldi Setyawan</td>
+                                <td style="font-size: 12px; vertical-align: middle;">2 Minutes Ago</td>
+                            </tr>
+                            <tr>
+                              <td style="width: 60px;"><img src="./img/pp.png" alt="" style="width: 100%;"></td>
+                              <td style="font-size: 20px; vertical-align: middle; font-weight: 600;">Rifaldi Setyawan</td>
+                              <td style="font-size: 12px; vertical-align: middle;">2 Minutes Ago</td>
+                            </tr>
+                            <tr>
+                              <td style="width: 60px;"><img src="./img/pp.png" alt="" style="width: 100%;"></td>
+                              <td style="font-size: 20px; vertical-align: middle; font-weight: 600;">Rifaldi Setyawan</td>
+                              <td style="font-size: 12px; vertical-align: middle;">2 Minutes Ago</td>
+                            </tr>
+                            <tr>
+                              <td style="width: 60px;"><img src="./img/pp.png" alt="" style="width: 100%;"></td>
+                              <td style="font-size: 20px; vertical-align: middle; font-weight: 600;">Rifaldi Setyawan</td>
+                              <td style="font-size: 12px; vertical-align: middle;">2 Minutes Ago</td>
+                            </tr>
+                            <tr>
+                              <td style="width: 60px;"><img src="./img/pp.png" alt="" style="width: 100%;"></td>
+                              <td style="font-size: 20px; vertical-align: middle; font-weight: 600;">Rifaldi Setyawan</td>
+                              <td style="font-size: 12px; vertical-align: middle;">2 Minutes Ago</td>
+                            </tr>
+                        </tbody>
+                                            
+                      </table>
+                      <div class="d-grid gap-2">
+                        <button class="btn btn-primary btn-show"type="button">Show More</button>
+                      </div>
+
+                      
+                        
+                    
+                </div>
+
+                
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container-fluid">
+          <div class="col-lg-12" style=" background-image: linear-gradient(#dd4e48,black); border-radius: 10px; margin: 2px; color: #ffffff; align-content: center;">
+            <h1 style="margin: 10px;">Feedback form</h1>
+            <div class="col-lg-8" style="margin: 10px;">
+              <form style="padding-bottom:20px;">
+                
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Name</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text "><span class="bi bi-person"></span></div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Your Name..">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Type Your Email Here">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text "><span class="bi bi-envelope"></span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Feedback</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        
+        </div>
+          
+        
+    </div>
+
+
+
+                              <!-- Modal -->
+                              <div class="modal fade" id="previewmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                          <img src="./img/nft.png" alt="" width="100%">
+                                         </div>
+                                         <div class="col-lg-6">
+                                          <div class="text-content">
+                                            <div class="content-a">
+                                              <div>
+                                                <div style="color: gray;">Rifaldi Setyawan</div>
+                                                <h5>Old Man</h5>
+                                              </div>
+                                            </div>
+                                            <div class="content-b">
+                                              <div>
+                                                <div style="color: gray;">Price</div>
+                                                <h5>$ 20</h5>
+                                              </div>
+                                            </div>
+                                           </div>
+                                           <div>
+                                             NFT Created By Amrit Pal Singh
+                                           </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                      
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Modal 2-->
+                              <div class="modal fade" id="previewmodal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                          <img src="./img/nft2.png" alt="" width="100%">
+                                         </div>
+                                         <div class="col-lg-6">
+                                          <div class="text-content">
+                                            <div class="content-a">
+                                              <div>
+                                                <div style="color: gray;">Rifaldi Setyawan</div>
+                                                <h5>Old McDonalds</h5>
+                                              </div>
+                                            </div>
+                                            <div class="content-b">
+                                              <div>
+                                                <div style="color: gray;">Price</div>
+                                                <h5>$ 17</h5>
+                                              </div>
+                                            </div>
+                                           </div>
+                                           <div>
+                                             NFT Created By Amrit Pal Singh
+                                           </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                      
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Modal 3-->
+                              <div class="modal fade" id="previewmodal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                          <img src="./img/nft3.png" alt="" width="100%">
+                                         </div>
+                                         <div class="col-lg-6">
+                                          <div class="text-content">
+                                            <div class="content-a">
+                                              <div>
+                                                <div style="color: gray;">Rifaldi Setyawan</div>
+                                                <h5>The Astronout</h5>
+                                              </div>
+                                            </div>
+                                            <div class="content-b">
+                                              <div>
+                                                <div style="color: gray;">Price</div>
+                                                <h5>$ 25</h5>
+                                              </div>
+                                            </div>
+                                           </div>
+                                           <div>
+                                             NFT Created By Amrit Pal Singh
+                                           </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                      
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Modal 4-->
+                              <div class="modal fade" id="previewmodal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                          <img src="./img/nft4.png" alt="" width="100%">
+                                         </div>
+                                         <div class="col-lg-6">
+                                          <div class="text-content">
+                                            <div class="content-a">
+                                              <div>
+                                                <div style="color: gray;">Rifaldi Setyawan</div>
+                                                <h5>The Cowboy</h5>
+                                              </div>
+                                            </div>
+                                            <div class="content-b">
+                                              <div>
+                                                <div style="color: gray;">Price</div>
+                                                <h5>$ 27</h5>
+                                              </div>
+                                            </div>
+                                           </div>
+                                           <div>
+                                             NFT Created By Amrit Pal Singh
+                                           </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                      
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Modal 5-->
+                              <div class="modal fade" id="previewmodal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                          <img src="./img/nft5.png" alt="" width="100%">
+                                         </div>
+                                         <div class="col-lg-6">
+                                          <div class="text-content">
+                                            <div class="content-a">
+                                              <div>
+                                                <div style="color: gray;">Rifaldi Setyawan</div>
+                                                <h5>Madam Maggie</h5>
+                                              </div>
+                                            </div>
+                                            <div class="content-b">
+                                              <div>
+                                                <div style="color: gray;">Price</div>
+                                                <h5>$ 30</h5>
+                                              </div>
+                                            </div>
+                                           </div>
+                                           <div>
+                                             NFT Created By Amrit Pal Singh
+                                           </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                      
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Modal 2-->
+                              <div class="modal fade" id="previewmodal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                          <img src="./img/nft6.png" alt="" width="100%">
+                                         </div>
+                                         <div class="col-lg-6">
+                                          <div class="text-content">
+                                            <div class="content-a">
+                                              <div>
+                                                <div style="color: gray;">Rifaldi Setyawan</div>
+                                                <h5>Old Blad Man</h5>
+                                              </div>
+                                            </div>
+                                            <div class="content-b">
+                                              <div>
+                                                <div style="color: gray;">Price</div>
+                                                <h5>$ 20</h5>
+                                              </div>
+                                            </div>
+                                           </div>
+                                           <div>
+                                             NFT Created By Amrit Pal Singh
+                                           </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                      
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+<script>
+  function myFunction() {
+    alert("This Button Unavailable");
+  }
+</script>                              
+</body>
+</html>
